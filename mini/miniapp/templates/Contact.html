@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/Contact.css' %}">
+</head>
+<body>
+    <div class='contact component__space' id='Contact'>
+        <div class='row'>
+          <div class='col__2'>
+            <div class='contact__box'>
+              <div class='contact__meta'>
+                <h1 class='hire__text'> CONTACT ME </h1>
+                <p class='hire__text white'>
+                  blaaa blaaa
+                </p>
+                <p class='hire__text white'>
+                  <strong>+32456 78999</strong> or email <strong>asd@gmail.com</strong>
+                </p>
+              </div>
+              <div class='input__box'>
+                <input type='text' class='contact name' placeholder='your name' />
+                <input type='text' class='contact email' placeholder='your email' />
+                <input type='text' class='contact subject' placeholder='write a subject' />
+                <textarea name='message' id='message' placeholder='write your message'></textarea>
+                <button class='view__more contact pointer btn'>submit</button>
+              </div>
+            </div>
+          </div>
+          <div class='col__2'>
+            <img src={photo} alt='' class='contact_img' />
+          </div>
+        </div>
+      </div>
+</body>
+</html>

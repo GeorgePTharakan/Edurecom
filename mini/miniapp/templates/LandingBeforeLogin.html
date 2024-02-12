@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Name</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+30JU5yEx1q6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+
+  <link rel="stylesheet" href="{% static 'css/LandingAfterLogin.css' %}">
+  
+
+
+</head>
+<body>
+    
+        <!-- Navigation -->
+        <nav>
+           
+        <img src="{% static 'images/Logo.png' %}" style="width: 3vw; min-width: 3px;"/>
+        <div class="navigation">
+        <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Signup.html">Sign Up</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="home">
+            <h2>Enhance Your Future With Name</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque
+                  suscipit aut ullam quisquam laboriosam eum nesciunt quos, molestias optio tenetur
+                  nobis vel sint quis veniam molestiae nemo deserunt autem!</p>
+            <div class="btn">
+                <a class="blue" href="#">Learn More</a>
+                <a class="yellow" href="#">Visit Courses</a>
+            </div>
+        </section>
+
+</body>
+</html>

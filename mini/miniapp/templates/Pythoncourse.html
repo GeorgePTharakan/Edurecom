@@ -1,0 +1,160 @@
+<!--Landing Page after login website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Name</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+30JU5yEx1q6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="{% static 'css/LandingAfterLogin.css' %}">
+  
+
+
+</head>
+
+    <body>
+        <!-- Navigation -->
+        <nav>
+           
+            <img src="{% static 'images/Logo.png' %}" style="width: 3vw; min-width: 3px;"/>
+            <div class="navigation">
+            <ul>
+            <li><a  href="LandingAfterLogin.html">Home</a></li>
+            <li><a  href="About.html">About</a></li>
+            <li><a class="active" href="Courses.html">Courses</a></li>
+            <li><a href="Dashboard.html">Dashboard</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+
+        <section id="about-home">
+            <h2>PYTHON </h2>
+               
+        </section>
+            <!--<section id="about-container">
+                    <div class="about-img">
+                       <img src="images/a.png" alt="">
+                    </div>-->
+        <section id="course-inner">
+            <div class="overview">
+                <img class="course-img" src="{% static 'images/c3.jpg' %}" alt="">
+                    <div class="course-head">
+                        <div class="c-name">
+                              <h2>Python Course</h2>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            <p>The Python course is designed to introduce you to the fundamentals of Python programming. 
+                           This course will help you develop your skills and understanding of Python.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Course overview</h3>
+                    <p>The Python course is designed to provide a comprehensive introduction 
+                        to the Python programming language. Starting from the basics, the course 
+                        covers essential concepts and syntax to help you become proficient in Python. 
+                        <br><br> course delves into fundamental topics such as variables, 
+                        data types, and type conversion, as well as operators and expressions. You will also 
+                        explore control structures including conditional statements (if-else, switch-case) and 
+                        looping statements (for, while), enabling you to effectively control the flow of 
+                        your programs.  <br><br>Additionally, you will learn how to work with strings and perform input 
+                        and output operations. The course covers functions extensively, teaching you how to define 
+                        and call functions, work with parameters and return values, and manage variable scope. 
+                        </p>
+                        <hr>
+                        <h3>What you'll learn</h3>
+                           <div class="learn">
+                              <p><i class="far fa-check-circle"></i>Python from scratch - beginner to advanced</p>
+                              <p><i class="far fa-check-circle"></i>Everything you need to become Python expert and apply for Python jobs</p>
+                              <p><i class="far fa-check-circle"></i>All about variables, functions, objects and arrays</p>
+                              <p><i class="far fa-check-circle"></i>All core features and concepts you need to know in modern Python development</p>
+                              <p><i class="far fa-check-circle"></i>Project-driven learning with plenty of examples</p>
+                              <p><i class="far fa-check-circle"></i>Object-oriented programming</p>
+                            </div>
+            </div>
+
+            <div class="enroll">
+                <h3>This course includes: </h3>
+                   <p><i class="fa fa-solid fa-video"></i>52 hours video</p>
+                   <p><i class="fa fa-newspaper"></i>75 articles</p>
+                   <p><i class="fa fa-cloud-download"></i>Downloadable resources</p>
+                   <p><i class="fa fa-thumbs-up"></i>Full lifetime access</p>
+                   <p><i class="fa fa-mobile"></i>Access on mobile and TV</p>
+                   <p><i class="fa fa-paperclip"></i>Assignments</p>
+                   <p><i class="fa fa-trophy"></i>Certificate of completion</p>
+                        <div class="enroll-btn">
+                            <a class="blue" href="#"> Take Test</a>
+                        </div>
+            </div>
+        </section>
+                   
+      
+               
+        
+                <footer>
+                    <div class="footer-col">
+                         <h3>Top Products</h3>
+                            <li>Manage Reputation</li>
+                            <li>Power Tools</li>
+                            <li>Managed Website</li>
+                            <li>Marketing Service</li>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Top Products</h3>
+                        <li>Power Tools</li>
+                        <li>Jobs</li>
+                        <li>Marketing Service</li>
+                        <li>Manage Reputation</li>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Top Products</h3>
+                        <li>Power Tools</li>
+                        <li>Managed Website</li>
+                        <li>Manage Reputation</li>
+                        <li>Marketing Service</li>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Guides</h3>
+                        <li>Research</li>
+                        <li>Experts</li>
+                        <li>Managed Website</li>
+                        <li>Marketing Service</li>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Newsletter</h3>
+                        <p>You can trust us. we only send promo offers </p>
+                        <div class="subscribe">
+                            <input type="text" placeholder="Your Email address">
+                            <a href="#" class="yellow">SUBSCRIBE</a>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <p>Copyright ©2023 All rights reserved</p>
+                        <div class="pro-links">
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-instagram"></i>
+                           <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                        
+                </footer>
+
+                
+
+
+    
+</body>
+</html>
